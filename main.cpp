@@ -1,6 +1,9 @@
 
 #include "mbed.h"
 
+//sample
+
+
 class Counter {
 public:
     Counter(PinName pin) : _interrupt(pin) {        // create the InterruptIn on the pin specified to Counter
